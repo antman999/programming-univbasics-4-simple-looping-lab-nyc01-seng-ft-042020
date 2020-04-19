@@ -31,8 +31,9 @@ def return_string_array(array)
   while counter < array.length do 
     new.push(
     array[counter].to_s )
-   puts counter +=1
+   counter +=1
 end
+new
 end
 
 
